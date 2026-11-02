@@ -49,3 +49,7 @@ python3 scripts/validate_skills.py
 - [Artist-Led Athletic Events skills](https://github.com/nickmerich/artist-led-events-skills): when the weekly run becomes a produced event.
 
 Not medical, legal, or insurance advice.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
