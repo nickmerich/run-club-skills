@@ -26,11 +26,22 @@ Built by [GRYT Run Club](https://grytrunclub.com) in Pittsburgh from running a f
 
 ## Quick start
 
+**Claude Code, one command:**
+
+```
+/plugin marketplace add nickmerich/run-club-skills
+/plugin install run-club-skills@run-club-skills
+```
+
+**Any agent that reads `SKILL.md`** (Claude apps, Codex, Cursor, Gemini CLI, Copilot, Perplexity):
+
 ```bash
 cp -r skills/* ~/.claude/skills/     # or point any agent at skills/
 python3 scripts/scorecard.py examples/checkins-sample.csv --as-of 2026-10-17
 python3 scripts/validate_skills.py
 ```
+
+Every skill also passes `skills-ref validate` from the [Agent Skills reference library](https://github.com/agentskills/agentskills).
 
 `scorecard.py` reads a check-in export (date, person id, first-time flag) and prints unique runners, total visits, first-timers, two-week return rate, who's drifting, and who just crossed a milestone.
 

@@ -1,0 +1,50 @@
+{
+  "name": "run-club-skills",
+  "owner": {
+    "name": "Nick Merich",
+    "email": "nick@gryt.club",
+    "url": "https://grytrunclub.com"
+  },
+  "metadata": {
+    "description": "Agent skills for running a run club: ritual, welcome, retention, member-led growth, safety, and honest attendance. By GRYT Run Club.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "run-club-skills",
+      "description": "Agent skills for running a run club: ritual, welcome, retention, member-led growth, safety, and honest attendance. By GRYT Run Club.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nick Merich",
+        "email": "nick@gryt.club"
+      },
+      "homepage": "https://github.com/nickmerich/run-club-skills",
+      "repository": "https://github.com/nickmerich/run-club-skills",
+      "license": "MIT",
+      "keywords": [
+        "agent-skills",
+        "skill-md",
+        "run-club",
+        "community",
+        "running"
+      ],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/attendance-and-scorecard",
+        "./skills/bring-a-friend",
+        "./skills/buddy-system",
+        "./skills/captains-and-succession",
+        "./skills/drifter-save",
+        "./skills/founding-ritual",
+        "./skills/local-partners",
+        "./skills/member-lifecycle",
+        "./skills/milestones-and-streaks",
+        "./skills/newcomer-welcome",
+        "./skills/routes-and-safety",
+        "./skills/run-club-operator",
+        "./skills/run-reports-and-stories"
+      ]
+    }
+  ]
+}
